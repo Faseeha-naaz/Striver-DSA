@@ -9,7 +9,7 @@ public class _37_ArmstrongUserInp {
         int num = sc.nextInt();
         int original = num;
 
-        //count digits
+        //step 1: count digits
         int temp = num;
         int count = 0;
         while(temp > 0){
@@ -18,13 +18,13 @@ public class _37_ArmstrongUserInp {
         }
         System.out.println("No of digits are: "+count);
 
-        //Armstrong sum
+        //step 2: Armstrong sum
         temp = num;
         int ans = 0;
         while(temp > 0){
             int rem = temp % 10;
 
-            //find power
+            //step 2.1: find power
             int power = 1;
             for(int i = 1; i <= count; i++){
                 power = power * rem;    //this calculates 3^3 then 5 ^3 then 1^3..nd while loop runs thrice for this
@@ -32,6 +32,8 @@ public class _37_ArmstrongUserInp {
             ans = ans + power;   //ans = 27 first, then 27 + 125 = 152, then 152 + 1 = 153
             temp = temp / 10;
         }
+
+        //step 3: check and print the result
         if(ans == original){
             System.out.println("Armstrong");
         }

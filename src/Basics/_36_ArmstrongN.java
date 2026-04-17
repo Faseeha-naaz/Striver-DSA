@@ -2,7 +2,7 @@ package Basics;
 
 public class _36_ArmstrongN {
     public static void main(String[] args) {
-        //check armstrong number or not----> (1³ + 5³ + 3³ = 153)
+        //check armstrong number or not----> (1³ + 5³ + 3³ = 153) ------> 1*1*1 + 5*5*5 + 3*3*3 = 153
         int n = 153;
         int original = n;
 
