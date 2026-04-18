@@ -26,5 +26,5 @@ public class _7_BinaryToInt {
 //            placeholder = placeholder * 10;
 //        }
 //        System.out.println(ans);
-    }
+     }
 }
