@@ -24,7 +24,7 @@ public class _27_BSDescending {
             }
         }
         if(found == false){
-            System.out.println("Not found");
+            System.out.println("Target Not found");
         }
     }
 }
