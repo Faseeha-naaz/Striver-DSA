@@ -7,7 +7,7 @@ public class _28_OrderAgnosticBS {
         int target = 40;
         int start = 0;
         int end = arr.length - 1;
-        boolean isAsc = arr[start] < arr[end];
+        boolean isAsc = arr[start] < arr[end];   //compare first and last
 
         while (start <= end){
             int mid = start + (end - start) / 2;
