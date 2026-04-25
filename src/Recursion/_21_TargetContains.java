@@ -8,7 +8,7 @@ public class _21_TargetContains {
     }
     public static boolean contains(int[] arr, int i, int target){
         if (i == arr.length){
-            return false;
+            return false;  //
         }
         if(arr[i] == target){
             return true;
