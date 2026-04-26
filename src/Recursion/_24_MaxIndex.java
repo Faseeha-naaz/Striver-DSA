@@ -11,7 +11,7 @@ public class _24_MaxIndex {
         }
         int maxAns = maximum(arr, i + 1);
         if(arr[i] > arr[maxAns]){
-            return i;
+            return i;  //this returns index of max value
         }
         return maxAns;
     }
