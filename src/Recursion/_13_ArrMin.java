@@ -9,7 +9,7 @@ public class _13_ArrMin {
         if(i == arr.length - 1){
             return arr[i];
         }
-        int minCheck = min(arr, i + 1);
-        return Math.min(arr[i], minCheck);
+        int minimum = min(arr, i+1);
+        return Math.min(arr[i], minimum);
     }
 }
