@@ -10,10 +10,9 @@ public class _10_Palindrome {
     }
     public static void reverse(int n){
         if(n == 0){
-            return;     //exit
+            return;
         }
-        int rem = n % 10;
-        rev = rev * 10 + rem;
+        rev = rev * 10 + (n % 10);
         reverse(n / 10);
     }
 }

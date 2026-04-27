@@ -13,6 +13,6 @@ public class _14_LinearSearch {
         if(arr[i] == target){
             return i;
         }
-        return search(arr, i+ 1, target);
+        return search(arr, i + 1, target);
     }
 }
