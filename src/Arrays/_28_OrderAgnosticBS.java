@@ -1,6 +1,6 @@
 package Arrays;
 
-public class _28_OrderAgnosticBS {
+public class  _28_OrderAgnosticBS {
     public static void main(String[] args) {
         //when you don't know array is ascending or descending, first check
         int[] arr = {10,20,30,40,50};
