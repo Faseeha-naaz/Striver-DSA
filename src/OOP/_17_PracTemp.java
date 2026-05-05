@@ -2,7 +2,7 @@ package OOP;
 
 public class _17_PracTemp {
     public static void main(String[] args) {
-        //problem 5: Temperature converter
+        //problem 5: Temperature converter -> to learn method overloading
         Temperature t = new Temperature();
         System.out.println("C -> F: "+t.convert(5));
         System.out.println("F -> C: "+t.convert(10, true));
