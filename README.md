@@ -1,6 +1,6 @@
 # Striver A2Z DSA Sheet Solutions
 
-This repository contains my solutions to the Striver A2Z DSA Sheet, implemented in Java.  
+This repository contains my solutions to the Striver A2Z DSA Sheet, implemented in Java. Initially there will be few basic problems for the foundation building then as I progress, will continue with striver DSA sheet
 The purpose of this repository is to build strong problem-solving skills and prepare for technical interviews.
 
 ---
@@ -34,9 +34,9 @@ The purpose of this repository is to build strong problem-solving skills and pre
 
 | Topic | Status |
 |--------|--------|
-| Arrays | In Progress |
-| Binary Search | In Progress |
-| Strings | Pending |
+| Arrays | Done |
+| Binary Search | Done |
+| Strings | Done |
 | Linked List | Pending |
 
 ---
