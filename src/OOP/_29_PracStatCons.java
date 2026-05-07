@@ -7,7 +7,7 @@ public class _29_PracStatCons {
         Student4 s2 = new Student4("larva", 2);
         s1.display();
         s2.display();
-        Student4.showCount();
+        Student4.showCount();  //test like this
     }
 }
 class Student4{
