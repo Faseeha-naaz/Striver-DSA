@@ -18,6 +18,6 @@ class Employee3{
         this.id = id;
     }
     void display(){
-        System.out.println(name+", "+id+", "+Employee3.company);
+        System.out.println(name+", "+id+", "+Employee3.company);  //best way
     }
 }
